@@ -1,4 +1,4 @@
-module github.com/anoopss83/Hello
+module github.com/anoopss83/hello
 
 go 1.14
 
