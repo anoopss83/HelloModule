@@ -1,14 +1,17 @@
 package welcome
 
-import(
+import (
 	"testing"
 )
-func TestWelcomeSuccess(t *testing.T){
+
+func TestWelcomeSuccess(t *testing.T) {
 	guest := "Sam"
-	want := "Welcome "+guest
+	want := "Welcome " + guest
 	got := Welcome(guest)
 
 	if want != got {
-		t.Errorf("got = %s want = %s",got,want)
+		t.Errorf("got = %s want = %s", got, want)
 	}
 }
+
+
